@@ -7,9 +7,9 @@ namespace VariablesInputConversionFormatting
         static void Main(string[] args)
         {
            string firstName, lastName;
-           double gpa;
+            double gpa;
 
-            Console.WriteLine("Please enter your first name >>")
+            Console.WriteLine("Please enter your first name >>");
             firstName = Console.ReadLine();
 
             Console.WriteLine("Please enter your last name >>");
