@@ -21,7 +21,7 @@ namespace VariablesInputConversionFormatting
 
             gpa = gpa + .5; // because we are being nice
 
-            string output = "Hello " + firstName + " " + lastName + "." + "We boosted your gpa to " + gpa.ToString("N3");
+            string output = "Hello " + firstName + " " + lastName + ". " + "We boosted your gpa to " + gpa.ToString("N3");
 
             Console.WriteLine(output);
 
