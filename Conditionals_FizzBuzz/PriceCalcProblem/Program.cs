@@ -24,7 +24,7 @@ namespace PriceCalcProblem
 
                 if (isSuccessfull == false)
                 {
-                    Console.WriteLine("Your number is valid");
+                    Console.WriteLine("Your entry is invalid");
 
                     //return;
                     Environment.Exit(-1);
@@ -37,7 +37,7 @@ namespace PriceCalcProblem
 
                 if (double.TryParse(answer, out weight) == false)
                 {
-                    Console.WriteLine("Your number is valid");
+                    Console.WriteLine("Your entry is invalid");
 
                     //return;
                     Environment.Exit(-2);
@@ -78,16 +78,17 @@ namespace PriceCalcProblem
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Discount:\t" + discount.ToString("C"));
-
+                            
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Total:\t\t" + total.ToString("C"));
 
-                Console.WriteLine("Do you want to enter another shipment? yes or no? >>");
+                
+                Console.WriteLine("\nDo you want to enter another shipment? yes or no? >>");
                 answer = Console.ReadLine();
 
             } while (answer.ToLower() == "yes");
 
-            Console.WriteLine("\n\nGoodbye!");
+            Console.WriteLine("\nGoodbye!");
 
 
             
