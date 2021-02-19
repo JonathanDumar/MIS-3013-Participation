@@ -31,7 +31,7 @@ namespace PriceCalcProblem
                 }
 
                 Console.WriteLine("Please enter the weight of your shipment in lbs >>");
-                weight = Convert.ToDouble(Console.ReadLine());
+                answer = Console.ReadLine();
                 //miles = Convert.ToDouble(Console.ReadLine());
                 //bool isSuccessfull = double.TryParse(answer, out weight);
 
@@ -58,11 +58,15 @@ namespace PriceCalcProblem
                 }
 
                 netTotal = quote + hazardousCost;
-                discount = 0;
+                
 
                 if (miles < 150 && weight > 500)
                 {
                     discount = 0.10 * netTotal;
+                }
+                else
+                {
+                    discount = 0;
                 }
 
                 total = netTotal - discount;
@@ -73,7 +77,7 @@ namespace PriceCalcProblem
                 Console.WriteLine("Hazardous Cost:\t" + hazardousCost.ToString("C"));
 
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Discount:\t\t" + discount.ToString("C"));
+                Console.WriteLine("Discount:\t" + discount.ToString("C"));
 
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Total:\t\t" + total.ToString("C"));
@@ -81,7 +85,10 @@ namespace PriceCalcProblem
                 Console.WriteLine("Do you want to enter another shipment? yes or no? >>");
                 answer = Console.ReadLine();
 
-            } while (answer.ToLower = "yes");
+            } while (answer.ToLower() == "yes");
+
+            Console.WriteLine("\n\nGoodbye!");
+
 
             
             
