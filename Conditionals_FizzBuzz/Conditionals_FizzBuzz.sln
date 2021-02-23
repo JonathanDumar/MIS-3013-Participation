@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals_FizzBuzz", "Conditionals_FizzBuzz\Conditionals_FizzBuzz.csproj", "{8AB75C45-0773-4F7C-8E3C-8C9F919810AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceCalcProblem", "PriceCalcProblem\PriceCalcProblem.csproj", "{8592222A-2976-45CB-BA7A-1C8EB02BAA15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceCalcProblem", "PriceCalcProblem\PriceCalcProblem.csproj", "{8592222A-2976-45CB-BA7A-1C8EB02BAA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopExercise", "ForLoopExercise\ForLoopExercise.csproj", "{FDCFC098-6AE1-45DF-8625-80526A2F3530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8592222A-2976-45CB-BA7A-1C8EB02BAA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8592222A-2976-45CB-BA7A-1C8EB02BAA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8592222A-2976-45CB-BA7A-1C8EB02BAA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCFC098-6AE1-45DF-8625-80526A2F3530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCFC098-6AE1-45DF-8625-80526A2F3530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCFC098-6AE1-45DF-8625-80526A2F3530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCFC098-6AE1-45DF-8625-80526A2F3530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

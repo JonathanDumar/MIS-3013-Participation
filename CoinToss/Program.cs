@@ -23,7 +23,7 @@ namespace CoinToss
             {
                 Console.WriteLine("The coin landed on Heads");
 
-                if (Answer == "Heads")
+                if (Answer.ToLower() == "heads")
                 {
                     Console.WriteLine("Congratulations, you're right!");
                 }
@@ -35,7 +35,7 @@ namespace CoinToss
             else if (randomNbr == Tails)
             {
                 Console.WriteLine("The coin landed on Tails");
-                if (Answer == "Tails")
+                if (Answer.ToLower() == "tails")
                 {
                     Console.WriteLine("Congratulations, you're right!");
                 }
