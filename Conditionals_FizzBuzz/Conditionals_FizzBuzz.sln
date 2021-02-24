@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceCalcProblem", "PriceCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopExercise", "ForLoopExercise\ForLoopExercise.csproj", "{FDCFC098-6AE1-45DF-8625-80526A2F3530}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileExercise", "DoWhileExercise\DoWhileExercise.csproj", "{6D849093-459A-4231-888E-82316A215679}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FDCFC098-6AE1-45DF-8625-80526A2F3530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDCFC098-6AE1-45DF-8625-80526A2F3530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDCFC098-6AE1-45DF-8625-80526A2F3530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D849093-459A-4231-888E-82316A215679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D849093-459A-4231-888E-82316A215679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D849093-459A-4231-888E-82316A215679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D849093-459A-4231-888E-82316A215679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
