@@ -11,8 +11,7 @@ namespace Loops_GuessANumber
             int answer;
             int randomNbr;
 
-            do
-            {
+            
                 Console.WriteLine("Input your lower value >>");
                 lowbound = Convert.ToInt32(Console.ReadLine());
 
@@ -21,10 +20,11 @@ namespace Loops_GuessANumber
 
                 Random rnd = new Random();
                 randomNbr = rnd.Next(lowbound, highbound + 1);
-
+            do
+            {
                 Console.WriteLine("Guess the random number between your lower and higher values >>");
                 answer = Convert.ToInt32(Console.ReadLine());
-
+            
                 if (answer == randomNbr)
                 {
                     Console.WriteLine("Congratulations! You guessed correctly.");
