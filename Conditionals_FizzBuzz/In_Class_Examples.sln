@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals_FizzBuzz", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceCalcProblem", "PriceCalcProblem\PriceCalcProblem.csproj", "{8592222A-2976-45CB-BA7A-1C8EB02BAA15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopExercise", "ForLoopExercise\ForLoopExercise.csproj", "{FDCFC098-6AE1-45DF-8625-80526A2F3530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoopExercise", "ForLoopExercise\ForLoopExercise.csproj", "{FDCFC098-6AE1-45DF-8625-80526A2F3530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileExercise", "DoWhileExercise\DoWhileExercise.csproj", "{6D849093-459A-4231-888E-82316A215679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoWhileExercise", "DoWhileExercise\DoWhileExercise.csproj", "{6D849093-459A-4231-888E-82316A215679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{F9625AC8-C6A9-4C18-8CDA-6BA35C6A214B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6D849093-459A-4231-888E-82316A215679}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D849093-459A-4231-888E-82316A215679}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D849093-459A-4231-888E-82316A215679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9625AC8-C6A9-4C18-8CDA-6BA35C6A214B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9625AC8-C6A9-4C18-8CDA-6BA35C6A214B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9625AC8-C6A9-4C18-8CDA-6BA35C6A214B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9625AC8-C6A9-4C18-8CDA-6BA35C6A214B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
