@@ -18,29 +18,41 @@ namespace StringManipulation
             Console.WriteLine("\nWhat word do you want to search for in the above sentence to replace?");
             searchWord = Console.ReadLine();
 
-            Console.WriteLine("\nWhat word do you want to replace it with?");
-            replaceWord = Console.ReadLine();
-
+           
             bool validInput = sentence.Contains(searchWord);
 
             if (validInput == false)
             {
-                Console.WriteLine("The word you selected is not in the sentence");
+                Console.WriteLine("Sorry, I could not find your word " + searchWord);
+
+                
+                for (int i = searchWord.Length-1; i > -1; i--)
+                {
+                    Console.Write(searchWord[i]);
+                }
             }
 
-            sentence = sentence.Replace(searchWord, replaceWord);
+            else
+            {
+                Console.WriteLine("\nWhat word do you want to replace it with?");
+                replaceWord = Console.ReadLine();
+
+                sentence = sentence.Replace(searchWord, replaceWord);
 
 
-            Console.WriteLine(sentence);
-            //Console.WriteLine(sentence, sentence.Replace(searchWord, replaceWord));
+                Console.WriteLine(sentence);
+                //Console.WriteLine(sentence, sentence.Replace(searchWord, replaceWord));
 
-            
+            }
 
-            
 
-            
 
-            
+
+
+
+
+
+
         }
     }
 }
