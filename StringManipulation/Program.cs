@@ -23,10 +23,10 @@ namespace StringManipulation
 
             if (validInput == false)
             {
-                Console.WriteLine("Sorry, I could not find your word " + searchWord);
+                Console.WriteLine("Sorry, I could not find your word " + "\"" + searchWord + "\"");
 
                 
-                for (int i = searchWord.Length-1; i > -1; i--)
+                for (int i = searchWord.Length-1; i >= 0; i--)
                 {
                     Console.Write(searchWord[i]);
                 }
@@ -40,9 +40,8 @@ namespace StringManipulation
                 sentence = sentence.Replace(searchWord, replaceWord);
 
 
-                Console.WriteLine(sentence);
-                //Console.WriteLine(sentence, sentence.Replace(searchWord, replaceWord));
-
+                Console.WriteLine("\n" + sentence);
+                
             }
 
 
