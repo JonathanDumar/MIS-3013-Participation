@@ -15,7 +15,7 @@ namespace Collections_Dictionaries
 
             foreach (var studentID in students.Keys)
             {
-                Console.Write($"\t {studentID}");
+                Console.Write($"\t {studentID}");   
             }
 
             Console.WriteLine("\nWhose GPA do you want to see? >>");
