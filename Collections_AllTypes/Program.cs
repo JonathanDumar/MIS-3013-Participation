@@ -20,9 +20,9 @@ namespace Collections_AllTypes
             coursegrades["MIS3013"].Add(0.90);
 
             List<double> MIS3033Grades = new List<double>();
-            MIS3033Grades.Add(100);
-            MIS3033Grades.Add(95);
-            MIS3033Grades.Add(80);
+            MIS3033Grades.Add(1.00);
+            MIS3033Grades.Add(0.95);
+            MIS3033Grades.Add(0.80);
             coursegrades.Add("MIS3033", MIS3033Grades);
 
             coursegrades.Add("HON2000", new List<double>());
@@ -47,8 +47,7 @@ namespace Collections_AllTypes
                 
                 double avg = sum / grades.Count;
               
-                Console.WriteLine(sum);
-                Console.WriteLine(avg);
+                Console.WriteLine($"{avg.ToString("P")}");
             }
 
 
