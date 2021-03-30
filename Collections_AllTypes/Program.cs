@@ -9,8 +9,23 @@ namespace Collections_AllTypes
         {
             // Problem 1
             // Problem 2
-            // Problem 3
+            List<double> prob2Grades = new List<double>();
+            string answer;
+            do
+            {
+                Console.WriteLine("What is your grade? >>");
+                answer = Console.ReadLine();
 
+                prob2Grades.Add(Convert.ToDouble(answer));
+
+                Console.WriteLine("Do you have another grade to enter? (yes or no?)>>");
+                answer = Console.ReadLine();
+
+            } while (answer.ToLower()[0] == 'y');
+
+
+            // Problem 3
+            #region
             List<double> example = new List<double>();
             Dictionary<string, List<double>> coursegrades = new Dictionary<string, List<double>>();
 
@@ -49,7 +64,7 @@ namespace Collections_AllTypes
               
                 Console.WriteLine($"{avg.ToString("P")}");
             }
-
+            #endregion
 
 
 

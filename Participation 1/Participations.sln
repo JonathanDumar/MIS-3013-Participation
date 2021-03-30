@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "..\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_(statistics)", "..\Collections_(statistics)\Collections_(statistics).csproj", "{247ABD29-F03E-482A-96F7-377CD922CBDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_AllTypes", "..\Collections_AllTypes\Collections_AllTypes.csproj", "{0C52AD08-7A00-4326-A78B-5D2ED09E0937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_AllTypes", "..\Collections_AllTypes\Collections_AllTypes.csproj", "{0C52AD08-7A00-4326-A78B-5D2ED09E0937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Processing_a_CSV_File", "..\Processing_a_CSV_File\Processing_a_CSV_File.csproj", "{BFDD6D1C-AE7B-46AB-953A-D157193FC621}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{0C52AD08-7A00-4326-A78B-5D2ED09E0937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C52AD08-7A00-4326-A78B-5D2ED09E0937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C52AD08-7A00-4326-A78B-5D2ED09E0937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDD6D1C-AE7B-46AB-953A-D157193FC621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDD6D1C-AE7B-46AB-953A-D157193FC621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDD6D1C-AE7B-46AB-953A-D157193FC621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDD6D1C-AE7B-46AB-953A-D157193FC621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
