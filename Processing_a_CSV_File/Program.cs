@@ -31,19 +31,6 @@ namespace Processing_a_CSV_File
                 double[] sumMonths = new double[13];
                 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                 if (status == "Shipped")
                 {
                     sumMonths[month] += sales;
